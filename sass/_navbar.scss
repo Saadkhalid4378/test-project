@@ -1,0 +1,62 @@
+@import './variables';
+.header {
+    background: $backcol;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.11);
+
+    .left {
+        a {
+            color: white;
+            i {
+                color: $red;
+            }
+            h1 {
+                font-size: large;
+                color: $red;
+                border-bottom: 1px solid $red;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+
+            img {
+                width: 139px;
+                height: 37px;
+                // top: 18px;
+                // left: 111px;
+                // gap: 0px;
+                // opacity: 0px;
+            }
+        }
+
+    }
+
+    .right {
+        padding-left: 4rem;
+        padding-right: 1rem;
+        // @media (max-width: 1195px) {
+        //     // align-items: end;
+        // }
+
+        .item {
+            margin: 0 0.5rem;
+            
+            a {
+                text-decoration: none;
+                margin: 0 0.5rem;
+                color: white;
+            }
+            span {
+                color: $red;
+            }
+        }
+        button {
+            img {
+                width: 21.13px;
+                height: 14.41px;
+                border-radius: 3px 0px 0px 0px;
+                // top: 27.8px;
+                // left: 1289px;
+                // gap: 0px;
+                // opacity: 0px;
+            }
+        }
+    }
+}

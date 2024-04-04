@@ -1,0 +1,244 @@
+.header {
+  background: black;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.11);
+}
+.header .left a {
+  color: white;
+}
+.header .left a i {
+  color: #EA4924;
+}
+.header .left a h1 {
+  font-size: large;
+  color: #EA4924;
+  border-bottom: 1px solid #EA4924;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header .left a img {
+  width: 139px;
+  height: 37px;
+}
+.header .right {
+  padding-left: 4rem;
+  padding-right: 1rem;
+}
+.header .right .item {
+  margin: 0 0.5rem;
+}
+.header .right .item a {
+  text-decoration: none;
+  margin: 0 0.5rem;
+  color: white;
+}
+.header .right .item span {
+  color: #EA4924;
+}
+.header .right button img {
+  width: 21.13px;
+  height: 14.41px;
+  border-radius: 3px 0px 0px 0px;
+}
+
+.banner {
+  background: black;
+  padding-left: 3rem;
+  padding-right: 2rem;
+}
+.banner .left {
+  padding-top: 9rem;
+}
+.banner .left .content h2 {
+  font-size: 5rem;
+  font-weight: 400;
+  color: white;
+}
+.banner .left .content h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #EA4924;
+}
+.banner .left .content p {
+  font-size: 1.1rem;
+  color: white;
+}
+.banner .left .search .parah {
+  color: #EA4924;
+}
+.banner .left .search span {
+  color: white;
+}
+.banner .left .search i {
+  color: black;
+}
+.banner .left .search .button-icon {
+  background: #EA4924;
+}
+.banner .right {
+  padding-top: 3rem;
+  padding-left: 10%;
+}
+.banner .right img {
+  max-width: 100%;
+  max-height: 90%;
+}
+@media (max-width: 767px) {
+  .banner .right img {
+    max-width: 50%;
+  }
+}
+
+.about {
+  background: black;
+  padding: 3rem;
+}
+.about .content h1 {
+  font-size: 3.125rem;
+  color: #EA4924;
+}
+.about .content h1 span {
+  color: white;
+}
+.about .content p {
+  color: #FFFFFF;
+  font-size: 1.125rem;
+  line-height: 2.53125rem;
+}
+
+.industries {
+  text-align: center;
+  padding: 3rem;
+  background: black;
+}
+.industries .content h1 {
+  color: #EA4924;
+  font-size: 3.125rem;
+  line-height: normal;
+}
+.industries .content h1 span {
+  color: #FFFFFF;
+}
+.industries .content p {
+  color: #FFFFFF;
+  font-size: 1.125rem;
+  line-height: 32.5px;
+  max-width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+.industries .image {
+  margin-top: 3rem;
+}
+.industries .image img {
+  max-width: 90%;
+  max-height: 90%;
+}
+.industries .image .icon {
+  position: relative;
+  background: rgb(234, 73, 36);
+  height: 1.7rem;
+  width: 1.5rem;
+}
+.industries .image .icon1 {
+  position: relative;
+  background: rgb(128, 40, 20);
+  height: 1.7rem;
+  width: 1.5rem;
+}
+.industries .number p {
+  text-align: start;
+  font-size: 6.25rem;
+  color: #EA4924;
+  padding: 3rem;
+}
+.industries .content1 {
+  text-align: start;
+  padding-top: 3rem;
+}
+.industries .content1 h1 {
+  color: #EA4924;
+  font-size: 3.125rem;
+  line-height: normal;
+}
+.industries .content1 p {
+  color: #FFFFFF;
+  font-size: 1.125rem;
+  line-height: normal;
+}
+
+.section1 {
+  background: linear-gradient(180deg, #EA4924 83.69%, rgba(234, 73, 36, 0) 202.27%);
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.section1 .content {
+  padding-top: 7rem;
+}
+.section1 .content h1 {
+  max-width: 70%;
+  font-size: 3.125rem;
+  color: #FFFFFF;
+  line-height: 4.150625rem;
+}
+.section1 .content p {
+  max-width: 72%;
+  font-size: 1.125rem;
+  color: #FFFFFF;
+  line-height: 2.15625rem;
+}
+.section1 .image img {
+  max-width: 90%;
+}
+
+.section2 .left {
+  background: linear-gradient(360deg, #D53F1C 94.22%, rgba(213, 63, 28, 0) 151.41%);
+}
+.section2 .left .content {
+  padding-top: 5rem;
+}
+.section2 .left .content h1 {
+  max-width: 100%;
+  font-size: 2.5rem;
+  color: #FFFFFF;
+  line-height: 4.150625rem;
+}
+.section2 .left .content p {
+  max-width: 85%;
+  font-size: 1rem;
+  color: #FFFFFF;
+  line-height: 2.15625rem;
+}
+.section2 .left .image {
+  padding-top: 2rem;
+}
+.section2 .left .image img {
+  max-width: 100%;
+}
+@media (max-width: 767px) {
+  .section2 .left .image img {
+    max-width: 50%;
+  }
+}
+.section2 .right {
+  background: url("../Assets/Images/section(2)bg.jpeg");
+}
+.section2 .right .content {
+  padding-top: 5rem;
+}
+.section2 .right .content h1 {
+  max-width: 100%;
+  font-size: 2.5rem;
+  color: #EA4924;
+  line-height: 4.150625rem;
+}
+.section2 .right .content p {
+  max-width: 85%;
+  font-size: 1.15rem;
+  color: black;
+  line-height: 2.15625rem;
+}
+.section2 .right .image {
+  padding-top: 2rem;
+}
+.section2 .right .image img {
+  max-width: 100%;
+}/*# sourceMappingURL=main.css.map */

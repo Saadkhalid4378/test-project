@@ -1,0 +1,63 @@
+@import './variables';
+
+.section2 {
+        .left{
+    background: $backcol3;
+    .content {
+        padding-top: 5rem;
+        h1 {
+            max-width: 100%;
+            font-size: 2.5rem;
+            color: $white;
+            line-height: 4.150625rem;
+         }   
+         p {
+            max-width: 85%;
+            font-size: 1rem;
+            color: $white;
+            line-height: 2.15625rem;
+         } 
+    }
+    .image {
+        padding-top: 2rem;
+        img {
+            max-width: 100%;
+            // min-height: 100%;
+            // align-items: start;
+            // image-orientation: flip;
+            // transform: rotate(-180deg);
+            @media (max-width:767px) {
+                max-width: 50%;      
+              }
+        }
+    }
+}
+.right {
+    background: url('../Assets/Images/section\(2\)bg.jpeg');
+    .content {
+        padding-top: 5rem;
+        h1 {
+            max-width: 100%;
+            font-size: 2.5rem;
+            color: $red;
+            line-height: 4.150625rem;
+         }   
+         p {
+            max-width: 85%;
+            font-size: 1.15rem;
+            color: $backcol;
+            line-height: 2.15625rem;
+         } 
+    }
+    .image {
+        padding-top: 2rem;
+        img {
+            max-width: 100%;
+            // min-height: 100%;
+            // align-items: start;
+            // image-orientation: flip;
+            // transform: rotate(-180deg);
+        }
+    }
+}
+}

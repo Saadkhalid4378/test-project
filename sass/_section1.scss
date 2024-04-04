@@ -1,0 +1,31 @@
+@import './variables';
+
+.section1 { 
+    background: $backcol2;
+    padding-left: 3rem ;
+    padding-right: 3rem ;
+    // margin-bottom: 5rem;
+    .content{
+    padding-top: 7rem;
+ h1 {
+    max-width: 70%;
+    font-size: 3.125rem;
+    color: $white;
+    line-height: 4.150625rem;
+ }   
+ p {
+    max-width: 72%;
+    font-size: 1.125rem;
+    color: $white;
+    line-height: 2.15625rem;
+ } 
+}
+.image{
+ img {
+    max-width: 90%;
+   //  min-height: 100%;
+    // image-orientation: flip;
+    // transform: rotate(-180deg);
+ }
+}
+}

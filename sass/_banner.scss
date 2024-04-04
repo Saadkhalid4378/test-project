@@ -1,0 +1,57 @@
+@import './variables';
+.banner {
+    background: $backcol;
+    padding-left: 3rem;
+    padding-right: 2rem;
+
+    .left {
+        padding-top: 9rem;
+        .content {
+            h2 {
+                font-size: 5rem;
+                font-weight: 400;
+                color: white;
+            }
+
+            h1 {
+                font-size: 5rem;
+                font-weight: 800;
+                color: $red;
+            }
+
+            p {
+                font-size: 1.1rem;
+                color: white;
+            }
+        }
+
+        .search {
+            .parah {
+                color:$red;
+            }
+
+            span {
+                color: white;
+            }
+            i {
+                color: black;
+            }
+            .button-icon {
+                background: $red;
+            }
+        }
+    }
+
+    .right {
+        padding-top: 3rem ;
+        padding-left: 10%;
+        img {
+            max-width: 100%;
+            max-height: 90%;
+            @media (max-width: 767px) {
+                max-width: 50%;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,21 @@
+@import './variables';
+
+.about{
+    background: $backcol;
+    padding: 3rem;
+    .content {
+        h1 {
+            font-size: 3.125rem;
+            color: $red;
+            span {
+                color: white;
+            }
+        }
+        p {
+            color: $white;
+            font-size: 1.125rem;
+            line-height: 2.53125rem;
+        }
+    }
+
+}
