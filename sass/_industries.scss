@@ -1,67 +1,81 @@
 @import './variables';
 
 .industries {
-    text-align: center;
-    padding: 3rem;
-    background: $backcol;
-    // align-items: center;
-    .content {
+  text-align: center;
+  padding: 3rem;
+  background: $backcol;
+
+  // align-items: center;
+  .content {
     h1 {
-        color: $red;
-        font-size: 3.125rem;
-        line-height: normal;
-        span {
-            color: $white;
-        }
-    }
-    p {
+      color: $red;
+      font-size: 3.125rem;
+      line-height: normal;
+
+      span {
         color: $white;
-        font-size: 1.125rem;
-        line-height: 32.5px;
-        max-width: 50%;
-        text-align: center;
-        margin: 0 auto;
+      }
     }
-}
-.image {
+
+    p {
+      color: $white;
+      font-size: 1.125rem;
+      line-height: 32.5px;
+      max-width: 50%;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+
+  .image {
     margin-top: 3rem;
+
     img {
-        max-width: 90%;
-        max-height: 90%;
+      max-width: 90%;
+      max-height: 90%;
     }
     .icon {
+      display: flex;
+      align-items: center;
+      // flex-direction: column;
+      .icon1 {
         position: relative;
         background: rgba(234, 73, 36, 1);
         height: 1.7rem;
         width: 1.5rem;
       }
-      .icon1 {
+      .icon2 {
         position: relative;
         background: rgba(128, 40, 20, 1);
         height: 1.7rem;
         width: 1.5rem;
       }
     }
-      .number {
-        p {
-        text-align: start;
-            font-size: 6.25rem;
-            color: $red;
-            padding: 3rem;
-        }
-      }
-      .content1 {
-        text-align: start;
-        padding-top: 3rem;
-        h1 {
-            color: $red;
-            font-size: 3.125rem;
-            line-height: normal;
-            }
-        p {
-            color: $white;
-            font-size: 1.125rem;
-            line-height: normal;
-        }
-      }
+  }
+
+  .number {
+    p {
+      text-align: start;
+      font-size: 6.25rem;
+      color: $red;
+      padding: 3rem;
+    }
+  }
+
+  .content1 {
+    text-align: start;
+    padding-top: 3rem;
+
+    h1 {
+      color: $red;
+      font-size: 3.125rem;
+      line-height: normal;
+    }
+
+    p {
+      color: $white;
+      font-size: 1.125rem;
+      line-height: normal;
+    }
+  }
 }
