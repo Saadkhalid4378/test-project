@@ -29,11 +29,12 @@
     }
 
     .right {
-        padding-left: 4rem;
+        // padding-left: 4rem;
         padding-right: 1rem;
-        // @media (max-width: 1195px) {
-        //     // align-items: end;
-        // }
+        @media (max-width: 1026px) {
+            display: flex;
+            flex-direction: inherit;
+        }
 
         .item {
             margin: 0 0.5rem;

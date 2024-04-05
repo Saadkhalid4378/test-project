@@ -1,0 +1,40 @@
+@import './variables';
+
+.footer{
+    .footersection2{
+        padding-top: 5rem;
+        padding-left: 3rem;
+        background: $backcol;
+        .content {
+            h1{
+                font-size: 3.125rem;
+                line-height: 6.25rem;
+                max-width: 100%;
+                color: $white;
+                span{
+                    color: $red;
+                }
+                @media (max-width:975px) {
+                    font-size: 2.125rem;
+                }
+            }
+            p{
+                font-size: 1.125rem;
+                line-height: 2.03125rem;
+                max-width: 90%;
+                color: $white;
+                @media (max-width:975px) {
+                    font-size: 1rem;
+                }
+            }
+        }
+        .image{
+            img{
+                max-width: 100%;
+                @media (max-width:535px) {
+                    max-width: 50%;
+                }
+            }
+        }
+}
+}
