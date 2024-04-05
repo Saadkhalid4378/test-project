@@ -9,14 +9,23 @@
         .content {
             h2 {
                 font-size: 5rem;
-                font-weight: 400;
+                // font-weight: 400;
                 color: white;
+                @media (max-width:1023px) {
+                    // max-width: 50%;
+                    font-size: 3rem;      
+                  }
             }
 
             h1 {
                 font-size: 5rem;
-                font-weight: 800;
+                // font-weight: 800;
                 color: $red;
+                @media (max-width:1023px) {
+                    // max-width: 50%;
+                    font-size: 3rem;      
+                  }
+            }
             }
 
             p {
@@ -28,6 +37,7 @@
         .search {
             .parah {
                 color:$red;
+                max-width: 90%;
             }
 
             span {
@@ -54,4 +64,3 @@
         }
     }
 
-}

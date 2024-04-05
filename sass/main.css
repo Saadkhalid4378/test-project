@@ -49,40 +49,50 @@
 }
 .banner .left .content h2 {
   font-size: 5rem;
-  font-weight: 400;
   color: white;
+}
+@media (max-width: 1023px) {
+  .banner .left .content h2 {
+    font-size: 3rem;
+  }
 }
 .banner .left .content h1 {
   font-size: 5rem;
-  font-weight: 800;
   color: #EA4924;
 }
-.banner .left .content p {
+@media (max-width: 1023px) {
+  .banner .left .content h1 {
+    font-size: 3rem;
+  }
+}
+.banner .left p {
   font-size: 1.1rem;
   color: white;
 }
-.banner .left .search .parah {
+.banner .search .parah {
   color: #EA4924;
+  max-width: 90%;
 }
-.banner .left .search span {
+.banner .search span {
   color: white;
 }
-.banner .left .search i {
+.banner .search i {
   color: black;
 }
-.banner .left .search .button-icon {
+.banner .search .button-icon {
   background: #EA4924;
 }
-.banner .right {
+
+.right {
   padding-top: 3rem;
   padding-left: 10%;
 }
-.banner .right img {
+.right img {
   max-width: 100%;
   max-height: 90%;
 }
 @media (max-width: 767px) {
-  .banner .right img {
+  .right img {
     max-width: 50%;
   }
 }
