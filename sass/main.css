@@ -2,6 +2,14 @@
   background: black;
   border-bottom: 2px solid rgba(255, 255, 255, 0.11);
 }
+.header .job-villa img {
+  max-width: 50%;
+}
+@media (max-width: 767px) {
+  .header .job-villa img {
+    max-width: 25%;
+  }
+}
 .header .left a {
   color: white;
 }
@@ -13,10 +21,6 @@
   color: #EA4924;
   border-bottom: 1px solid #EA4924;
   font-family: Arial, Helvetica, sans-serif;
-}
-.header .left a img {
-  width: 139px;
-  height: 37px;
 }
 .header .right {
   padding-right: 1rem;
@@ -116,6 +120,15 @@
   color: #FFFFFF;
   font-size: 1.125rem;
   line-height: 2.53125rem;
+}
+.about .robot img {
+  max-width: 75%;
+  padding-left: 5rem;
+}
+@media (max-width: 992px) {
+  .about .robot img {
+    max-width: 50%;
+  }
 }
 
 .industries {
@@ -380,4 +393,59 @@
 }
 .footer .footersection3 .slider {
   margin-top: 5rem;
+}
+
+.footer .footerbar {
+  padding-left: 3rem;
+  padding-top: 5rem;
+  background: black;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .footer .footerbar {
+    text-align: start;
+    align-items: start;
+  }
+}
+.footer .footerbar .left .content img {
+  max-width: 90%;
+}
+.footer .footerbar .left .content p {
+  font-size: 1rem;
+  max-width: 90%;
+  line-height: 2.03125rem;
+  color: #FFFFFF;
+}
+.footer .footerbar .left .image {
+  display: flex;
+  flex-direction: row;
+}
+.footer .footerbar .left .image img {
+  max-width: 30%;
+}
+.footer .footerbar .midd a {
+  text-decoration: none;
+}
+.footer .footerbar .midd h1 {
+  font-size: 1.125rem;
+  line-height: 1.704375rem;
+  color: #EA4924;
+}
+.footer .footerbar .midd p {
+  font-size: 1rem;
+  line-height: 1.420625rem;
+  color: #FFFFFF;
+}
+.footer .footerbar .right a {
+  text-decoration: none;
+}
+.footer .footerbar .right h1 {
+  font-size: 1.125rem;
+  line-height: 1.704375rem;
+  color: #EA4924;
+}
+.footer .footerbar .right p {
+  font-size: 1rem;
+  line-height: 1.420625rem;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
