@@ -19,8 +19,13 @@
   height: 37px;
 }
 .header .right {
-  padding-left: 4rem;
   padding-right: 1rem;
+}
+@media (max-width: 1026px) {
+  .header .right {
+    display: flex;
+    flex-direction: inherit;
+  }
 }
 .header .right .item {
   margin: 0 0.5rem;
@@ -82,17 +87,16 @@
 .banner .search .button-icon {
   background: #EA4924;
 }
-
-.right {
+.banner .right {
   padding-top: 3rem;
   padding-left: 10%;
 }
-.right img {
+.banner .right img {
   max-width: 100%;
   max-height: 90%;
 }
 @media (max-width: 767px) {
-  .right img {
+  .banner .right img {
     max-width: 50%;
   }
 }
@@ -251,4 +255,93 @@
 }
 .section2 .right .image img {
   max-width: 100%;
+}
+
+.footer .footersection1 {
+  background: black;
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
+.footer .footersection1 .content {
+  padding-top: 7rem;
+}
+.footer .footersection1 .content h1 {
+  font-size: 3.125rem;
+  line-height: 6.25rem;
+  max-width: 100%;
+  color: #EA4924;
+}
+.footer .footersection1 .content h1 span {
+  color: #FFFFFF;
+}
+@media (max-width: 975px) {
+  .footer .footersection1 .content h1 {
+    font-size: 2.125rem;
+  }
+}
+.footer .footersection1 .content p {
+  font-size: 1.125rem;
+  line-height: 2.03125rem;
+  max-width: 90%;
+  color: #FFFFFF;
+}
+@media (max-width: 975px) {
+  .footer .footersection1 .content p {
+    font-size: 1rem;
+  }
+}
+.footer .footersection1 .content .image {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
+}
+.footer .footersection1 .content .image img {
+  max-width: 20%;
+}
+.footer .footersection1 .image {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footersection1 .image img {
+  max-width: 50%;
+  line-height: 0%;
+}
+
+.footer .footersection2 {
+  padding-top: 5rem;
+  padding-left: 3rem;
+  background: black;
+}
+.footer .footersection2 .content h1 {
+  font-size: 3.125rem;
+  line-height: 6.25rem;
+  max-width: 100%;
+  color: #FFFFFF;
+}
+.footer .footersection2 .content h1 span {
+  color: #EA4924;
+}
+@media (max-width: 975px) {
+  .footer .footersection2 .content h1 {
+    font-size: 2.125rem;
+  }
+}
+.footer .footersection2 .content p {
+  font-size: 1.125rem;
+  line-height: 2.03125rem;
+  max-width: 90%;
+  color: #FFFFFF;
+}
+@media (max-width: 975px) {
+  .footer .footersection2 .content p {
+    font-size: 1rem;
+  }
+}
+.footer .footersection2 .image img {
+  max-width: 100%;
+}
+@media (max-width: 535px) {
+  .footer .footersection2 .image img {
+    max-width: 50%;
+  }
 }/*# sourceMappingURL=main.css.map */
